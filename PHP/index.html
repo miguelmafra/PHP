@@ -1,0 +1,62 @@
+<html>
+
+
+<head>
+    <title>Exemplo Formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        input {
+            margin-top:16px;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <h1>Formulário de Cadastro</h1>
+    <Form method="POST" action="formulario.php" class="text-center">
+        <input type="TEXT" class="form-control text-center" value="nome" name="nome" id="name" />
+        <input type="TEXT" class="form-control text-center" value="cpf" name="cpf" id="cpf" />
+        <input type="password" class="form-control text-center" value="password" name="password" id="Password" />
+        <input class="form-check-input" type="radio" name="sexo" id="Homem" value="sexo" checked>
+        <label class="form-check-label" for="Homem">Homem </label>
+        <br>
+        <input class="form-check-input" type="radio" name="sexo" id="Mulher" value="sexo" checked>
+        <label class="form-check-label" for="Mulher">Mulher</label>
+
+        <br>
+        <input class="form-check-input" type="checkbox" id="Ativo" value="option1">
+        <label class="form-check-label" for="Ativo">Maior de 18 anos?</label>
+        <br>
+        <label class="form-check-label">Estado:</label>
+        <select multiple name="cidade" class="form-control">
+            <option selected > São Paulo</option>
+            <option >Paraná</option>
+        </select>
+        <input type="TEXT" class="form-control text-center" value="endereco" name="endereco" id="endereco" />
+    
+        <input type="TEXT" class="form-control text-center" value="telefone" name="telefone" id="telefone" />
+        <input type="TEXT" class="form-control text-center" value="celular" name="celular" id="celular" />
+        <input type="TEXT" class="form-control text-center" value="obs" name="obs"
+            id="Observação  " />
+
+        <input type="submit" class="form-control text-center" placeholder="submit" name="submit" id="submit" />
+        <input type="reset" class="form-control text-center" placeholder="Redefinir" name="Redefinir" id="Redefinir" />
+        <textarea id="textarea" name="textarea" cols="5" rows="5" class="form-control text-center"></textarea>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</html>

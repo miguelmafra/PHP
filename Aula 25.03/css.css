@@ -1,0 +1,19 @@
+P {
+    font-family: Time !important;
+    font-size: 36pt !important;
+    Color: blue !important;
+    margin-left: 0.5in !important }
+
+    .navbar-brand {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+      }
+  
+      .nav-link {
+        color: aliceblue !important;
+      }
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+  
+      }
+  
